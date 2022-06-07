@@ -11,7 +11,7 @@ public class 递归返回的数字之和 {
         if (n <= 9){
             return n;
         }else {
-            return 
+            return n % 10 + func(n / 10);
         }
     }
 }
