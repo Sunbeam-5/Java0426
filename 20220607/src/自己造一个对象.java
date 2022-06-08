@@ -37,13 +37,13 @@ public class 自己造一个对象 {
         the_little_prince.number = "626362xxxx";
         the_little_prince.address = "Ontario, CA";
 
-        System.out.println(the_little_prince.name);
+      /*  System.out.println(the_little_prince.name);
         System.out.println(the_little_prince.Englishname);
         System.out.println(the_little_prince.age);
         System.out.println(the_little_prince.height);
         System.out.println(the_little_prince.weight);
         System.out.println(the_little_prince.number);
-        System.out.println(the_little_prince.address);
-        the_little_prince.responde1();
+        System.out.println(the_little_prince.address); */
+        the_little_prince.responde3();
     }
 }
