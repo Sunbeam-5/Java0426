@@ -23,7 +23,7 @@ public class SquareEquation {
                 root2 = (-b-Math.sqrt(disk))/(2*a);
                 System.out.printf("方程的根:%f,%f\n", root1, root2);
             }else {
-                System.out.printf("方程没有实根\n");
+                System.out.printf("SunRise方程没有实根\n");
             }
         }else {
             System.out.println("不是一元二次方程");
