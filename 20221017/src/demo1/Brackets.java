@@ -1,26 +1,14 @@
 package demo1;
 
-public class Parenthesis {
-    public boolean chkParenthesis(String A, int n) {
-        // write code here
-        if (n % 2 == 1){
-            return false;
-        }else {
-            char[] array = A.toCharArray();
-            for (int i = 0; i < array.length; i++) {
-                if (array[i] == '(' || array[i] == ')'){
-                    continue;
-                }else {
-                    return false;
-                }
-            }
-            return true;
-        }
-    }
-}
+import java.util.Scanner;
 
 public class Brackets {
     public static void main(String[] args) {
-
+        Scanner sc = new Scanner(System.in);
+        String str = sc.nextLine();
+        int n = sc.nextInt();
+        Parenthesis parenthesis = new Parenthesis();
+        boolean flag = parenthesis.chkParenthesis(str);
+        System.out.println(flag);
     }
 }
